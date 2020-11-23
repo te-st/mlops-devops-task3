@@ -71,7 +71,7 @@ import smtplib
 s = smtplib.SMTP('smtp.gmail.com', 587)
 s.starttls()
 
-s.login("nilesh0109choubisa@gmail.com", "7414893737")
+s.login("sukhdeepsinghsoni1998@gmail.com", "8003322337")
 
 
     # message
@@ -79,7 +79,7 @@ message_success = "Achieved your desired accuracy . Congrats "
 
 
     # sending the mail
-s.sendmail("nilesh0109choubisa@gmail.com",message_success)
+s.sendmail("sukhdeepsinghsoni1998@gmail.com",message_success)
 
 
     # terminating the session
